@@ -31,7 +31,6 @@ services:
       DATABASE_CLIENT: postgres
       DATABASE_PORT: 5432
       DATABASE_SSL: false
-      NODE_ENV: ${NODE_ENV}
     networks:
       - strapi
   db:
