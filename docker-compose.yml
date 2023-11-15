@@ -30,7 +30,7 @@ services:
       DATABASE_HOST: db
       DATABASE_CLIENT: postgres
       DATABASE_PORT: 5432
-      DATABASE_SSL: null
+      DATABASE_SSL: true
     networks:
       - strapi
   db:
